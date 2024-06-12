@@ -1,11 +1,11 @@
 import json
 from pyecharts.charts import Line
 
-f_us = open('D:/Users/Stikb/Desktop/资料/可视化案例数据/折线图数据/美国.txt','r', encoding='UTF-8')
+f_us = open('whereever your us file is','r', encoding='UTF-8')
 us_data = f_us.read()
-f_jp = open('D:/Users/Stikb/Desktop/资料/可视化案例数据/折线图数据/日本.txt','r', encoding='UTF-8')
+f_jp = open('whereever your japan file is','r', encoding='UTF-8')
 jp_data = f_jp.read()
-f_in = open('D:/Users/Stikb/Desktop/资料/可视化案例数据/折线图数据/印度.txt','r', encoding='UTF-8')
+f_in = open('whereever your india file is','r', encoding='UTF-8')
 in_data = f_in.read()
 us_data = us_data.replace('jsonp_1629344292311_69436(','')
 jp_data = jp_data.replace('jsonp_1629350871167_29498(','')
